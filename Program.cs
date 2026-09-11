@@ -18,5 +18,13 @@ namespace StrategyPattern
             rubberDuck.PerformQuack();
 
         }
+
+        public static void TestDuck(Duck duck)
+        {
+            duck.PerformQuack();
+            duck.PerformFly();
+            duck.Swim();
+            duck.Display();
+        }
     }
 }
